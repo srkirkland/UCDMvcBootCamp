@@ -6,7 +6,6 @@ namespace UCDMvcBootCamp.Controllers
     public class HomeController : ApplicationController
     {
         // GET: /
-
         public ActionResult Index()
         {
             var conferences = Repository.OfType<Conference>().GetAll();

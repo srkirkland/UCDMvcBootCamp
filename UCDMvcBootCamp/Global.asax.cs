@@ -3,10 +3,12 @@ using System.Web.Routing;
 using Castle.Windsor;
 using Microsoft.Practices.ServiceLocation;
 using MvcContrib.Castle;
+using UCDArch.Data.NHibernate;
 using UCDArch.Web.IoC;
 using UCDArch.Web.ModelBinder;
 using UCDArch.Web.Validator;
 using UCDMvcBootCamp.Controllers;
+using UCDMvcBootCamp.Core.Mappings;
 
 namespace UCDMvcBootCamp
 {
@@ -37,6 +39,8 @@ namespace UCDMvcBootCamp
             RegisterRoutes(RouteTable.Routes);
 
             ModelBinders.Binders.DefaultBinder = new UCDArchModelBinder();
+
+            NHibernateSessionConfiguration.Mappings.UseFluentMappings(typeof(ConferenceMap).Assembly);
 
             IWindsorContainer container = InitializeServiceLocator();
         }

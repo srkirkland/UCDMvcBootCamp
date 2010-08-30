@@ -7,8 +7,43 @@
     </boolean>
   </SettingsComponent>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:ComponentRegistrar.asax.cs" caret="0" fromTop="0" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:Global.asax.cs" caret="21" fromTop="0" />
+      <File id="d:Miscellaneous Files/f:DataNamMap.cs/l:C!?Projects?Dev?NamSearch?NamSearch.Core?Mappings?DataNamMap.cs" caret="28" fromTop="0" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Conference.cs" caret="1465" fromTop="38" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Controllers/f:ApplicationController.cs" caret="0" fromTop="0" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:ConferenceMap.cs" caret="377" fromTop="13" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:Web.config" caret="362" fromTop="11" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Controllers/f:HomeController.cs" caret="374" fromTop="16" />
+      <File id="d:Miscellaneous Files/f:NHibernateSessionManager.cs/l:C!?Projects?UCDArch?UCDArch.Data?NHibernate?NHibernateSessionManager.cs" caret="1022" fromTop="25" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:Web.config" caret="1643" fromTop="29" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:Global.asax.cs" caret="299" fromTop="8" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:Global.asax.cs" caret="1900" fromTop="38" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:Global.asax.cs" caret="1789" fromTop="30" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:Global.asax.cs" caret="1951" fromTop="30" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:ComponentRegistrar.asax.cs" caret="1186" fromTop="26" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:ComponentRegistrar.asax.cs" caret="237" fromTop="4" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:ComponentRegistrar.asax.cs" caret="639" fromTop="18" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:ComponentRegistrar.asax.cs" caret="0" fromTop="0" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:Global.asax.cs" caret="1111" fromTop="29" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:Global.asax.cs" caret="923" fromTop="11" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:Global.asax.cs" caret="21" fromTop="0" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Conference.cs" caret="1662" fromTop="38" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Conference.cs" caret="1652" fromTop="36" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Conference.cs" caret="238" fromTop="7" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Conference.cs" caret="565" fromTop="19" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:ConferenceMap.cs" caret="0" fromTop="0" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:ConferenceMap.cs" caret="415" fromTop="14" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:ConferenceMap.cs" caret="267" fromTop="10" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Controllers/f:ApplicationController.cs" caret="133" fromTop="8" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Controllers/f:ApplicationController.cs" caret="0" fromTop="0" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Controllers/f:HomeController.cs" caret="163" fromTop="4" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Controllers/f:HomeController.cs" caret="264" fromTop="10" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -21,4 +56,34 @@
     </NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="ctor" priority="0" />
+      <Item value="Table`0" priority="0" />
+      <Item value="Id`1" priority="0" />
+      <Item value="Map`0" priority="2" />
+      <Item value="Content`0" priority="0" />
+      <Item value="ReflectedParameterDescriptor`0" priority="0" />
+      <Item value="ApplicationController`0" priority="0" />
+      <Item value="Repository" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UCDMvcBootCamp.Core.Domain.Conference">
+      <Item value="Id" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="AttendeeCount" priority="0" />
+      <Item value="SessionCount" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Mapping.IdentityPart">
+      <Item value="GeneratedBy" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Mapping.IdentityGenerationStrategyBuilder`1">
+      <Item value="Identity`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UCDArch.Core.PersistanceSupport.IRepository">
+      <Item value="OfType`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UCDArch.Core.PersistanceSupport.IRepository`1">
+      <Item value="GetAll`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>

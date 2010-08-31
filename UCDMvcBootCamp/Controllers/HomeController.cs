@@ -6,16 +6,16 @@ namespace UCDMvcBootCamp.Controllers
 {
     public class HomeController : ApplicationController
     {
-        // GET: /
         public ActionResult Index()
         {
-            var conferences = Repository.OfType<Conference>().GetAll();
+            ViewData["Message"] = "Welcome to ASP.NET MVC!";
 
-            var attendeesforfirstconf = conferences.First().Attendees.ToList();
-            var sessionsforfirstconf = conferences.First().Sessions.ToList();
-            
-            return Content("Testing 123");
+            return View();
         }
 
+        public ActionResult About()
+        {
+            return View();
+        }
     }
 }

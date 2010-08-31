@@ -49,8 +49,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Attendee.cs" />
     <Compile Include="Domain\Conference.cs" />
+    <Compile Include="Domain\Session.cs" />
+    <Compile Include="Domain\Speaker.cs" />
+    <Compile Include="Mappings\AttendeeMap.cs" />
     <Compile Include="Mappings\ConferenceMap.cs" />
+    <Compile Include="Mappings\SessionMap.cs" />
+    <Compile Include="Mappings\SpeakerMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

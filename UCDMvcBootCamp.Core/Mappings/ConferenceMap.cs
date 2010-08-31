@@ -13,7 +13,11 @@ namespace UCDMvcBootCamp.Core.Mappings
 
             Map(x => x.Name);
             Map(x => x.AttendeeCount);
-            Map(x => x.SessionCount);    
+            Map(x => x.SessionCount);
+
+            HasMany(x => x.Attendees).KeyColumn("ConferenceID").Cascade.AllDeleteOrphan();
+            HasMany(x => x.Sessions).KeyColumn("ConferenceID").Cascade.AllDeleteOrphan();
+
         }
     }
 }

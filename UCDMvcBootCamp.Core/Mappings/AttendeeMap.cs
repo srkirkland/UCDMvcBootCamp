@@ -7,8 +7,7 @@ namespace UCDMvcBootCamp.Core.Mappings
     {
         public AttendeeMap()
         {
-            Table("Attendees");
-            Id(x => x.Id).GeneratedBy.Identity();
+            Id(x => x.Id);
 
             Map(x => x.FirstName);
             Map(x => x.LastName);

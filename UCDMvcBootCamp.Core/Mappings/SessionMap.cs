@@ -7,9 +7,7 @@ namespace UCDMvcBootCamp.Core.Mappings
     {
         public SessionMap()
         {
-            Table("Sessions");
-
-            Id(x => x.Id).GeneratedBy.Identity();
+            Id(x => x.Id);
 
             Map(x => x.Title);
             Map(x => x.Abstract);

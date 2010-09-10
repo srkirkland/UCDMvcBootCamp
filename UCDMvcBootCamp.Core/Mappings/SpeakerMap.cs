@@ -7,15 +7,13 @@ namespace UCDMvcBootCamp.Core.Mappings
     {
         public SpeakerMap()
         {
-            Table("Speakers");
-
-            Id(x => x.Id).GeneratedBy.Identity();
+            Id(x => x.Id);
 
             Map(x => x.FirstName);
             Map(x => x.LastName);
             Map(x => x.Bio);
 
-            HasMany(x => x.Sessions).KeyColumn("SpeakerID");
+            HasMany(x => x.Sessions);
         }
     }
 }

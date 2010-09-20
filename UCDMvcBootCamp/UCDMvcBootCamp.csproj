@@ -122,6 +122,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\MicrosoftMvcJQueryValidation.js" />
     <Content Include="Views\Account\LogOn.aspx" />
+    <Content Include="Views\Conference\Edit.aspx" />
     <Content Include="Views\Conference\Index.aspx" />
     <Content Include="Views\Dynamic\Index.aspx" />
     <Content Include="Views\Home\About.aspx" />

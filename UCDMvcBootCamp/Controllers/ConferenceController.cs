@@ -30,9 +30,28 @@ namespace UCDMvcBootCamp.Controllers
                 conferences.Select(
                     x =>
                     new ConferenceListModel
-                        {Name = x.Name, AttendeeCount = x.AttendeeCount, SessionCount = x.SessionCount});
+                        {Id = x.Id, Name = x.Name, AttendeeCount = x.AttendeeCount, SessionCount = x.SessionCount});
 
             return View(model.ToList());
+        }
+
+        public ActionResult Edit(int id)
+        {
+            var conference = _conferenceRepository.GetNullableById(id);
+
+            return View(conference);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Conference conference)
+        {
+            var conferenceToEdit = _conferenceRepository.GetNullableById(conference.Id);
+
+            conferenceToEdit.ChangeName(conference.Name);
+
+            _conferenceRepository.EnsurePersistent(conferenceToEdit);
+
+            return RedirectToAction("Index");
         }
 
     }

@@ -9,6 +9,7 @@ using UCDArch.Web.ModelBinder;
 using UCDArch.Web.Validator;
 using UCDMvcBootCamp.Controllers;
 using UCDMvcBootCamp.Core.Mappings;
+using UCDMvcBootCamp.Helpers;
 
 namespace UCDMvcBootCamp
 {
@@ -43,6 +44,11 @@ namespace UCDMvcBootCamp
             NHibernateSessionConfiguration.Mappings.UseFluentMappings(typeof(ConferenceMap).Assembly);
 
             IWindsorContainer container = InitializeServiceLocator();
+
+            var dbLoader = container.Resolve<IDummyDataLoader>();
+
+            dbLoader.CreateDb();
+            dbLoader.Load();
         }
 
         private static IWindsorContainer InitializeServiceLocator()

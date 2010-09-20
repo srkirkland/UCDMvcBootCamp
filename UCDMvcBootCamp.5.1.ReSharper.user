@@ -8,36 +8,32 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Session.cs" caret="74" fromTop="2" />
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Conference.cs" caret="530" fromTop="0" />
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:SpeakerMap.cs" caret="0" fromTop="0" />
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:AttendeeMap.cs" caret="455" fromTop="15" />
       <File id="d:Miscellaneous Files/f:ConferenceMappingOverride.cs/l:C!?Projects?Dev?UCDCodeCamp?UcdMvcBootCamp.Core?Infrastructure?Maps?ConferenceMappingOverride.cs" caret="503" fromTop="13" />
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:ConferenceMap.cs" caret="509" fromTop="16" />
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:SessionMap.cs" caret="481" fromTop="16" />
       <File id="d:Miscellaneous Files/f:NHibernateSessionManager.cs/l:C!?Projects?UCDArch?UCDArch.Data?NHibernate?NHibernateSessionManager.cs" caret="1423" fromTop="24" />
       <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Models/f:LogOnModel.cs" caret="63" fromTop="1" />
       <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Controllers/f:AccountController.cs" caret="308" fromTop="14" />
-      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Controllers/f:HomeController.cs" caret="407" fromTop="16" />
       <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Views/d:Home/f:Index.aspx" caret="522" fromTop="9" />
       <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Views/d:Shared/f:Site.master" caret="18" fromTop="0" />
-      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Views/d:Account/f:LogOn.aspx" caret="500" fromTop="8" />
-      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Views/d:Home/f:About.aspx" caret="344" fromTop="2" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Views/d:Home/f:About.aspx" caret="0" fromTop="0" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:AttendeeMap.cs" caret="343" fromTop="12" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:SpeakerMap.cs" caret="378" fromTop="14" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:ComponentRegistrar.asax.cs" caret="177" fromTop="3" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:Web.config" caret="1541" fromTop="20" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:Global.asax.cs" caret="1589" fromTop="18" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Attendee.cs" caret="508" fromTop="17" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Speaker.cs" caret="422" fromTop="15" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Conference.cs" caret="149" fromTop="5" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Session.cs" caret="93" fromTop="3" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:SessionMap.cs" caret="318" fromTop="12" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Views/d:Account/f:LogOn.aspx" caret="0" fromTop="0" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:ConferenceMap.cs" caret="494" fromTop="11" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Controllers/f:HomeController.cs" caret="398" fromTop="8" />
     </RecentFiles>
     <RecentEdits>
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Conference.cs" caret="215" fromTop="6" />
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Conference.cs" caret="1383" fromTop="26" />
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Conference.cs" caret="1625" fromTop="38" />
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Conference.cs" caret="1625" fromTop="3" />
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Conference.cs" caret="1625" fromTop="30" />
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Conference.cs" caret="1625" fromTop="9" />
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Session.cs" caret="74" fromTop="2" />
       <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Domain/f:Conference.cs" caret="1625" fromTop="0" />
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:AttendeeMap.cs" caret="478" fromTop="19" />
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:AttendeeMap.cs" caret="454" fromTop="15" />
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:SessionMap.cs" caret="444" fromTop="16" />
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:ConferenceMap.cs" caret="267" fromTop="10" />
-      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:ConferenceMap.cs" caret="509" fromTop="16" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:AttendeeMap.cs" caret="422" fromTop="19" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:AttendeeMap.cs" caret="398" fromTop="15" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:SessionMap.cs" caret="387" fromTop="16" />
       <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Controllers/f:HomeController.cs" caret="0" fromTop="16" />
       <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Views/d:Shared/f:Site.master" caret="1261" fromTop="38" />
       <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Views/d:Shared/f:Site.master" caret="996" fromTop="16" />
@@ -53,6 +49,17 @@
       <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Views/d:Home/f:Index.aspx" caret="115" fromTop="0" />
       <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Views/d:Home/f:Index.aspx" caret="524" fromTop="10" />
       <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Views/d:Account/f:LogOn.aspx" caret="0" fromTop="0" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:AttendeeMap.cs" caret="240" fromTop="9" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:SpeakerMap.cs" caret="237" fromTop="9" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:SpeakerMap.cs" caret="378" fromTop="14" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:ComponentRegistrar.asax.cs" caret="177" fromTop="3" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/f:Global.asax.cs" caret="1472" fromTop="15" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:ConferenceMap.cs" caret="493" fromTop="11" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:ConferenceMap.cs" caret="493" fromTop="10" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:SessionMap.cs" caret="361" fromTop="13" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:ConferenceMap.cs" caret="509" fromTop="23" />
+      <File id="3C779DDA-F4F5-44C7-9885-57A10EB4C12B/d:Mappings/f:ConferenceMap.cs" caret="493" fromTop="16" />
+      <File id="74E2B545-95B3-4014-8C35-BFE525429C9D/d:Controllers/f:HomeController.cs" caret="398" fromTop="10" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -68,48 +75,63 @@
   </UnitTestRunnerNUnit>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="ctor" priority="3" />
-      <Item value="Table`0" priority="3" />
-      <Item value="Id`1" priority="3" />
-      <Item value="Map`0" priority="10" />
+      <Item value="ctor" priority="5" />
+      <Item value="Table`0" priority="4" />
+      <Item value="Id`1" priority="9" />
+      <Item value="Map`0" priority="12" />
       <Item value="Content`0" priority="0" />
       <Item value="ReflectedParameterDescriptor`0" priority="0" />
       <Item value="ApplicationController`0" priority="1" />
-      <Item value="Repository" priority="0" />
-      <Item value="UCDArch" priority="0" />
+      <Item value="Repository" priority="2" />
+      <Item value="UCDArch" priority="1" />
       <Item value="Data" priority="0" />
       <Item value="NHibernate" priority="1" />
-      <Item value="NHibernateSessionConfiguration`0" priority="2" />
+      <Item value="NHibernateSessionConfiguration`0" priority="3" />
       <Item value="NHibernateSessionManager`0" priority="0" />
-      <Item value="DomainObject`0" priority="3" />
+      <Item value="DomainObject`0" priority="4" />
       <Item value="References`1" priority="7" />
       <Item value="HasOne`1" priority="3" />
       <Item value="HasMany`1" priority="4" />
       <Item value="var" priority="1" />
       <Item value="conferences" priority="1" />
+      <Item value="Conference`0" priority="1" />
+      <Item value="ReadOnly`0" priority="0" />
+      <Item value="Cache" priority="0" />
+      <Item value="HasManyToMany`1" priority="0" />
+      <Item value="public" priority="1" />
+      <Item value="ConferenceMap`0" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="ClassMap" priority="0" />
+      <Item value="T`0" priority="0" />
+      <Item value="where" priority="0" />
+      <Item value="Core" priority="0" />
+      <Item value="DomainModel" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UCDMvcBootCamp.Core.Domain.Conference">
-      <Item value="Id" priority="0" />
-      <Item value="Name" priority="0" />
+      <Item value="Id" priority="1" />
+      <Item value="Name" priority="1" />
       <Item value="AttendeeCount" priority="0" />
       <Item value="SessionCount" priority="0" />
       <Item value="Attendees" priority="2" />
       <Item value="Sessions" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.IdentityPart">
-      <Item value="GeneratedBy" priority="3" />
+      <Item value="GeneratedBy" priority="5" />
+      <Item value="Column`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.IdentityGenerationStrategyBuilder`1">
       <Item value="Identity`0" priority="3" />
+      <Item value="Assigned`0" priority="1" />
+      <Item value="Guid`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UCDArch.Core.PersistanceSupport.IRepository">
-      <Item value="OfType`1" priority="0" />
+      <Item value="OfType`1" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UCDArch.Core.PersistanceSupport.IRepository`1">
-      <Item value="GetAll`0" priority="0" />
+      <Item value="GetAll`0" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@UCDArch.Data.NHibernate.NHibernateSessionConfiguration">
-      <Item value="Mappings`0" priority="2" />
+      <Item value="Mappings`0" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@UCDArch.Data.NHibernate.NHibernateSessionConfiguration+Mappings">
       <Item value="UseFluentMappings`0" priority="2" />
@@ -122,7 +144,7 @@
       <Item value="Assembly" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UCDMvcBootCamp.Core.Domain.Attendee">
-      <Item value="Id" priority="0" />
+      <Item value="Id" priority="1" />
       <Item value="FirstName" priority="0" />
       <Item value="LastName" priority="0" />
       <Item value="Email" priority="0" />
@@ -141,14 +163,14 @@
       <Item value="ForeignKey`0" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UCDMvcBootCamp.Core.Domain.Session">
-      <Item value="Id" priority="0" />
+      <Item value="Id" priority="1" />
       <Item value="Title" priority="0" />
       <Item value="Abstract" priority="0" />
       <Item value="Speaker" priority="0" />
       <Item value="Conference" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:UCDMvcBootCamp.Core.Domain.Speaker">
-      <Item value="Id" priority="0" />
+      <Item value="Id" priority="1" />
       <Item value="FirstName" priority="0" />
       <Item value="LastName" priority="0" />
       <Item value="Bio" priority="0" />
@@ -156,17 +178,33 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.OneToManyPart`1">
       <Item value="Cache" priority="0" />
-      <Item value="Cascade" priority="3" />
+      <Item value="Cascade" priority="4" />
       <Item value="KeyColumn`0" priority="7" />
       <Item value="ForeignKeyConstraintName`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.CollectionCascadeExpression`1">
       <Item value="All`0" priority="0" />
-      <Item value="AllDeleteOrphan`0" priority="3" />
+      <Item value="AllDeleteOrphan`0" priority="4" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
       <Item value="ToList`1" priority="1" />
       <Item value="First`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@UCDArch.Core.Utils.Inflector">
+      <Item value="Pluralize`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Mapping.PropertyPart">
+      <Item value="Column`0" priority="0" />
+      <Item value="Length`0" priority="0" />
+      <Item value="Not" priority="0" />
+      <Item value="Nullable`0" priority="0" />
+      <Item value="ReadOnly`0" priority="1" />
+      <Item value="Update`0" priority="0" />
+      <Item value="Access" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Mapping.ManyToManyPart`1">
+      <Item value="Table`0" priority="1" />
+      <Item value="Inverse`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

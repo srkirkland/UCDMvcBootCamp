@@ -3,6 +3,7 @@ using UCDArch.Core.CommonValidator;
 using UCDArch.Core.NHibernateValidator.CommonValidatorAdapter;
 using UCDArch.Core.PersistanceSupport;
 using UCDArch.Data.NHibernate;
+using UCDMvcBootCamp.Helpers;
 
 namespace UCDMvcBootCamp
 {
@@ -11,6 +12,8 @@ namespace UCDMvcBootCamp
         public static void AddComponentsTo(IWindsorContainer container)
         {
             AddGenericRepositoriesTo(container);
+
+            container.AddComponent("DatabaseLoader", typeof (IDummyDataLoader), typeof (DummyDataLoader));
 
             container.AddComponent("validator",
                                    typeof(IValidator), typeof(Validator));

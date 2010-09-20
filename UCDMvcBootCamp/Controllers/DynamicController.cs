@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.Web.Mvc;
 
 namespace UCDMvcBootCamp.Controllers
 {
@@ -11,6 +12,12 @@ namespace UCDMvcBootCamp.Controllers
             ViewData["text"] = text;
 
             return View();
+        }
+
+        [HttpPost]
+        public ActionResult GoTo(string gotoUrl)
+        {
+            return Redirect(gotoUrl);
         }
     }
 }

@@ -4,5 +4,13 @@
     <h3>You sent in <%: ViewData["text"] ?? "No text" %>
     </h3>
 
+    <% using (Html.BeginForm("GoTo", "Dynamic")) { %>
+        <%: Html.AntiForgeryToken() %>
+
+        <%: Html.TextBox("gotoUrl") %>
+        
+        <input type="submit" name="submit" value="Go!" />
+
+    <% } %>
 
 </asp:Content> 

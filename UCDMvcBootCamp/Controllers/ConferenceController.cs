@@ -20,11 +20,11 @@ namespace UCDMvcBootCamp.Controllers
 
         //
         // GET: /Conference/
-        public ActionResult Index()
+        public ActionResult Index(int minSessions = 0)
         {
             //Grab all conferences
-            var conferences = _conferenceRepository.GetAll();
-
+            var conferences = _conferenceRepository.Queryable.Where(x => x.SessionCount >= minSessions);
+            
             //Transform the conferences into a listModel
             var model =
                 conferences.Select(
@@ -32,7 +32,7 @@ namespace UCDMvcBootCamp.Controllers
                     new ConferenceListModel
                         {Name = x.Name, AttendeeCount = x.AttendeeCount, SessionCount = x.SessionCount});
 
-            return View(model);
+            return View(model.ToList());
         }
 
     }

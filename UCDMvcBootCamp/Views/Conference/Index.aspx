@@ -4,6 +4,13 @@
 
     <h2>Showing Conferences</h2>
 
+    <% using (Html.BeginForm("Index", "Conference", FormMethod.Get)) { %>
+        Filter by Min Sessions: <%: Html.TextBox("minSessions") %>
+        <input type="submit" value="Filter!" />
+    <% } %>
+    
+    <br />
+
     <table>
         <thead>
             <tr>

@@ -44,9 +44,7 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="UCDArch.Core">
-      <HintPath>..\UCDMvcBootCamp\Bin\UCDArch.Core.dll</HintPath>
-    </Reference>
+    <Reference Include="UCDArch.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=667f3cb07abadf4b, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Domain\Attendee.cs" />

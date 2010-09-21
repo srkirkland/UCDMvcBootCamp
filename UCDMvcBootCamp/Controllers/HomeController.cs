@@ -1,6 +1,4 @@
-﻿using System.Linq;
-using System.Web.Mvc;
-using UCDMvcBootCamp.Core.Domain;
+﻿using System.Web.Mvc;
 
 namespace UCDMvcBootCamp.Controllers
 {

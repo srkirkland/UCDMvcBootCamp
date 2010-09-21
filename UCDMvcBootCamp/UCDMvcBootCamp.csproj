@@ -139,6 +139,7 @@
     <Content Include="Views\Dynamic\Index.aspx" />
     <Content Include="Views\Home\About.aspx" />
     <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Views\Shared\LogOnUserControl.ascx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

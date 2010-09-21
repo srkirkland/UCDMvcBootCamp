@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.Web.Mvc;
 
 namespace UCDMvcBootCamp.Controllers
 {
@@ -14,6 +15,11 @@ namespace UCDMvcBootCamp.Controllers
         public ActionResult About()
         {
             return View();
+        }
+
+        public ActionResult BlowUp()
+        {
+            throw new Exception("Blowing Up!");
         }
     }
 }

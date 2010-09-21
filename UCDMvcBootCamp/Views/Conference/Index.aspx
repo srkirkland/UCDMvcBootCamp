@@ -24,7 +24,7 @@
             <% foreach (var conference in Model) { %>
                 
                 <tr>
-                    <td><%: Html.ActionLink("Edit", "Edit", new { id = conference.Id }) %></td>
+                    <td><%: Html.ActionLink("Edit", "Edit", new { confname = conference.Name }) %></td>
                     <td><%: conference.Name %></td>
                     <td><%: conference.AttendeeCount %></td>
                     <td><%: conference.SessionCount %></td>

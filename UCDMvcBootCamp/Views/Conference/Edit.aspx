@@ -6,7 +6,8 @@
 
     <% using (Html.BeginForm()) { %>
         <%: Html.AntiForgeryToken() %>
-    
+        <%: Html.HiddenFor(x=>x.Id) %>
+
         Conference Name: <%: Html.TextBoxFor(x=>x.Name) %>
 
         <br /><br />

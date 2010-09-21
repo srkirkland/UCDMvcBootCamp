@@ -35,9 +35,9 @@ namespace UCDMvcBootCamp.Controllers
             return View(model.ToList());
         }
 
-        public ActionResult Edit(int id)
+        public ActionResult Edit(string confname)
         {
-            var conference = _conferenceRepository.GetNullableById(id);
+            var conference = _conferenceRepository.Queryable.Where(x=>x.Name == confname).Single();
 
             return View(conference);
         }

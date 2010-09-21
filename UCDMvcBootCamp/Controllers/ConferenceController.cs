@@ -35,6 +35,29 @@ namespace UCDMvcBootCamp.Controllers
             return View(model.ToList());
         }
 
+        public ActionResult Show(string confname)
+        {
+            //Get the conference
+            var conference = _conferenceRepository.Queryable.Where(x => x.Name == confname).Single();
+
+            //Map to a show model
+            var model = new ConferenceShowModel
+                            {
+                                Name = conference.Name,
+                                Sessions = conference.Sessions.Select(
+                                    x =>
+                                    new ConferenceShowModel.SessionShowModel
+                                        {
+                                            Title = x.Title,
+                                            SpeakerFirstName = x.Speaker.FirstName,
+                                            SpeakerLastName = x.Speaker.LastName
+                                        }
+                                    ).ToList()
+                            };
+
+            return View(model);
+        }
+
         public ActionResult Edit(string confname)
         {
             var conference = _conferenceRepository.Queryable.Where(x=>x.Name == confname).Single();

@@ -124,6 +124,7 @@
     </Compile>
     <Compile Include="Helpers\DummyDataLoader.cs" />
     <Compile Include="Models\ConferenceListModel.cs" />
+    <Compile Include="Models\ConferenceShowModel.cs" />
     <Compile Include="Models\LogOnModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -134,6 +135,7 @@
     <Content Include="Views\Account\LogOn.aspx" />
     <Content Include="Views\Conference\Edit.aspx" />
     <Content Include="Views\Conference\Index.aspx" />
+    <Content Include="Views\Conference\Show.aspx" />
     <Content Include="Views\Dynamic\Index.aspx" />
     <Content Include="Views\Home\About.aspx" />
     <Content Include="Views\Home\Index.aspx" />

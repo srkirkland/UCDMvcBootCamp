@@ -9,7 +9,7 @@ using UCDMvcBootCamp.Models;
 
 namespace UCDMvcBootCamp.Controllers
 {
-    public class ConferenceController : Controller
+    public class ConferenceController : ApplicationController
     {
         private readonly IRepository<Conference> _conferenceRepository;
 

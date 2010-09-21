@@ -3,6 +3,6 @@ using UCDArch.Web.Controller;
 
 namespace UCDMvcBootCamp.Controllers
 {
-    [HandleError]
+    [HandleError(Order = 100)]
     public class ApplicationController : SuperController { }
 }

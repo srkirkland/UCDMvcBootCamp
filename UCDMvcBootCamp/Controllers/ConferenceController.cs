@@ -9,7 +9,7 @@ using UCDMvcBootCamp.Models;
 
 namespace UCDMvcBootCamp.Controllers
 {
-    public class ConferenceController : Controller
+    public class ConferenceController : ApplicationController
     {
         private readonly IRepository<Conference> _conferenceRepository;
 
@@ -35,10 +35,16 @@ namespace UCDMvcBootCamp.Controllers
             return View(model.ToList());
         }
 
+        [HandleError(View = "NoConferenceError", ExceptionType = typeof(ArgumentOutOfRangeException))]
         public ActionResult Show(string confname)
         {
             //Get the conference
-            var conference = _conferenceRepository.Queryable.Where(x => x.Name == confname).Single();
+            var conference = _conferenceRepository.Queryable.Where(x => x.Name == confname).SingleOrDefault();
+
+            if (conference == null)
+            {
+                throw new ArgumentOutOfRangeException("Conference Name Not Found: " + confname);
+            }
 
             //Map to a show model
             var model = new ConferenceShowModel

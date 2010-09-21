@@ -141,6 +141,7 @@
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Views\Shared\LogOnUserControl.ascx" />
+    <Content Include="Views\Shared\NoConferenceError.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

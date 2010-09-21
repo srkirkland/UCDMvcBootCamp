@@ -58,6 +58,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Bin\NHibernate.ByteCode.Spring.dll</HintPath>
     </Reference>
+    <Reference Include="NHibernate.Validator">
+      <HintPath>..\Bin\NHibernate.Validator.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.SQLite">
@@ -90,10 +93,17 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="UCDArch.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=667f3cb07abadf4b, processorArchitecture=MSIL" />
-    <Reference Include="UCDArch.Core.NHibernateValidator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=667f3cb07abadf4b, processorArchitecture=MSIL" />
+    <Reference Include="UCDArch.Core">
+      <HintPath>..\Bin\UCDArch.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UCDArch.Core.NHibernateValidator">
+      <HintPath>..\Bin\UCDArch.Core.NHibernateValidator.dll</HintPath>
+    </Reference>
     <Reference Include="UCDArch.Data">
       <HintPath>..\Bin\UCDArch.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="UCDArch.Testing">
+      <HintPath>..\Bin\UCDArch.Testing.dll</HintPath>
     </Reference>
     <Reference Include="UCDArch.Web">
       <HintPath>..\Bin\UCDArch.Web.dll</HintPath>

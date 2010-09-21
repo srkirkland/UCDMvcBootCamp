@@ -48,6 +48,14 @@ namespace UCDMvcBootCamp.Controllers
             var conferenceToEdit = _conferenceRepository.GetNullableById(conference.Id);
 
             conferenceToEdit.ChangeName(conference.Name);
+            
+            foreach (var attendee in conference.Attendees)
+            {
+                var attendeeToEdit = conferenceToEdit.GetAttendee(attendee.Id);
+
+                attendeeToEdit.ChangeName(attendee.FirstName, attendee.LastName);
+                attendeeToEdit.Email = attendee.Email;
+            }
 
             _conferenceRepository.EnsurePersistent(conferenceToEdit);
 

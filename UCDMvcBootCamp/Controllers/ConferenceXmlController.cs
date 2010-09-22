@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using AutoMapper;
 using UCDArch.Core.PersistanceSupport;
 using UCDMvcBootCamp.Core.Domain;
 using UCDMvcBootCamp.Helpers;
@@ -24,15 +25,12 @@ namespace UCDMvcBootCamp.Controllers
         public ActionResult Xml()
         {
             //Grab all conferences
-            var conferences = _conferenceRepository.Queryable;
+            var conferences = _conferenceRepository.GetAll();
 
             //Transform the conferences into a listModel
-            var model =
-                conferences.Select(
-                    x =>
-                    new ConferenceListModel { Id = x.Id, Name = x.Name, AttendeeCount = x.AttendeeCount, SessionCount = x.SessionCount });
+            var model = Mapper.Map<IList<Conference>, List<ConferenceListModel>>(conferences);
 
-            return Xml(model.ToList());
+            return Xml(model);
             //return new XmlResult<List<ConferenceListModel>> { Model = model.ToList() };
         }
     }

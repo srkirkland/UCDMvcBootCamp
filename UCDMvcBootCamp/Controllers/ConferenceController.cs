@@ -26,7 +26,7 @@ namespace UCDMvcBootCamp.Controllers
             var conferences = _conferenceRepository.Queryable.Where(x => x.SessionCount >= minSessions).ToList();
             
             var model = Mapper.Map<List<Conference>, List<ConferenceListModel>>(conferences);
-            
+
             return View(model);
         }
 

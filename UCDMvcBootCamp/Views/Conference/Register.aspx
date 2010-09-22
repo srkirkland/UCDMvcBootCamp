@@ -4,6 +4,7 @@
     <h2>Register for <%: Model.ConferenceName %></h2>
     
     <%: Html.ValidationSummary() %>
+    <% Html.EnableClientValidation(); %>
 
     <% using (Html.BeginForm()) { %>
         <%: Html.AntiForgeryToken() %>

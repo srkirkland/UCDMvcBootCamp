@@ -117,12 +117,15 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ApplicationController.cs" />
     <Compile Include="Controllers\ConferenceController.cs" />
+    <Compile Include="Controllers\ConferenceXmlController.cs" />
     <Compile Include="Controllers\DynamicController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\DummyDataLoader.cs" />
+    <Compile Include="Helpers\XmlResult.cs" />
+    <Compile Include="Helpers\XmlSerializationHelper.cs" />
     <Compile Include="Models\ConferenceListModel.cs" />
     <Compile Include="Models\ConferenceShowModel.cs" />
     <Compile Include="Models\LogOnModel.cs" />

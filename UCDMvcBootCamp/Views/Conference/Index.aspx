@@ -3,6 +3,7 @@
 <asp:Content runat="server" ID="Main" ContentPlaceHolderID="MainContent">
 
     <h2>Showing Conferences</h2>
+    <h3><%: Html.ActionLink("View list in xml", "Xml", "ConferenceXml") %></h3>
 
     <% using (Html.BeginForm("Index", "Conference", FormMethod.Get)) { %>
         Filter by Min Sessions: <%: Html.TextBox("minSessions") %>

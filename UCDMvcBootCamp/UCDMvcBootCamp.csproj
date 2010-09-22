@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\Bin\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="Castle.Core">
       <HintPath>..\Bin\Castle.Core.dll</HintPath>
     </Reference>
@@ -123,6 +126,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\AutoMapperBootstrapper.cs" />
     <Compile Include="Helpers\DummyDataLoader.cs" />
     <Compile Include="Helpers\XmlResult.cs" />
     <Compile Include="Helpers\XmlSerializationHelper.cs" />

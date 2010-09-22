@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
+using AutoMapper;
 using UCDArch.Core.PersistanceSupport;
 using UCDMvcBootCamp.Core.Domain;
 using UCDMvcBootCamp.Models;
@@ -21,16 +23,11 @@ namespace UCDMvcBootCamp.Controllers
         public ActionResult Index(int minSessions = 0)
         {
             //Grab all conferences
-            var conferences = _conferenceRepository.Queryable.Where(x => x.SessionCount >= minSessions);
+            var conferences = _conferenceRepository.Queryable.Where(x => x.SessionCount >= minSessions).ToList();
             
-            //Transform the conferences into a listModel
-            var model =
-                conferences.Select(
-                    x =>
-                    new ConferenceListModel
-                        {Id = x.Id, Name = x.Name, AttendeeCount = x.AttendeeCount, SessionCount = x.SessionCount});
-
-            return View(model.ToList());
+            var model = Mapper.Map<List<Conference>, List<ConferenceListModel>>(conferences);
+            
+            return View(model);
         }
 
         [HandleError(View = "NoConferenceError", ExceptionType = typeof(ArgumentOutOfRangeException))]
@@ -44,20 +41,7 @@ namespace UCDMvcBootCamp.Controllers
                 throw new ArgumentOutOfRangeException("Conference Name Not Found: " + confname);
             }
 
-            //Map to a show model
-            var model = new ConferenceShowModel
-                            {
-                                Name = conference.Name,
-                                Sessions = conference.Sessions.Select(
-                                    x =>
-                                    new ConferenceShowModel.SessionShowModel
-                                        {
-                                            Title = x.Title,
-                                            SpeakerFirstName = x.Speaker.FirstName,
-                                            SpeakerLastName = x.Speaker.LastName
-                                        }
-                                    ).ToList()
-                            };
+            var model = Mapper.Map<Conference, ConferenceShowModel>(conference);
 
             return View(model);
         }

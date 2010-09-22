@@ -40,6 +40,8 @@ namespace UCDMvcBootCamp
             HibernatingRhinos.Profiler.Appender.NHibernate.NHibernateProfiler.Initialize();
             #endif
 
+            AutoMapperBootstrapper.Init();
+
             xVal.ActiveRuleProviders.Providers.Add(new ValidatorRulesProvider());
 
             RegisterRoutes(RouteTable.Routes);

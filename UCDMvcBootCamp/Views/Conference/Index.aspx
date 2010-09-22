@@ -2,6 +2,10 @@
 <asp:Content runat="server" ID="Title" ContentPlaceHolderID="TitleContent">Conferences</asp:Content>
 <asp:Content runat="server" ID="Main" ContentPlaceHolderID="MainContent">
 
+    <div>
+        <% Html.RenderAction("Stats"); %>
+    </div>
+
     <h2>Showing Conferences</h2>
     <h3><%: Html.ActionLink("View list in xml", "Xml", "ConferenceXml") %></h3>
 

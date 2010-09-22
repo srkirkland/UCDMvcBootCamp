@@ -73,5 +73,16 @@ namespace UCDMvcBootCamp.Controllers
             return RedirectToAction("Index");
         }
 
+        [ChildActionOnly]
+        public ActionResult Stats()
+        {
+            var model = new ConferenceStatsModel
+                            {
+                                ConferenceCount = _conferenceRepository.Queryable.Count(),
+                                SessionCount = _conferenceRepository.Queryable.Sum(x => x.SessionCount)
+                            };
+
+            return PartialView(model);
+        }
     }
 }

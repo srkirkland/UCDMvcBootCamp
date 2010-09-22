@@ -22,7 +22,7 @@ namespace UCDMvcBootCamp
             routes.MapRoute(
                 "Conference",
                 "Conference/{confname}/{action}",
-                new { controller = "Conference", action = "Index" }
+                new { controller = "Conference", action = "Index", confname = "All" }
                 );
             routes.MapRoute(
                 "Default",                                              // Route name

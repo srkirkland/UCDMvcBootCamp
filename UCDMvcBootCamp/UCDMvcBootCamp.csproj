@@ -119,6 +119,7 @@
     <Compile Include="ComponentRegistrar.asax.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ApplicationController.cs" />
+    <Compile Include="Controllers\AttendeeController.cs" />
     <Compile Include="Controllers\ConferenceController.cs" />
     <Compile Include="Controllers\ConferenceXmlController.cs" />
     <Compile Include="Controllers\DynamicController.cs" />
@@ -131,6 +132,7 @@
     <Compile Include="Helpers\XmlResult.cs" />
     <Compile Include="Helpers\XmlSerializationHelper.cs" />
     <Compile Include="Models\AttendeeEditModel.cs" />
+    <Compile Include="Models\AttendeeListModel.cs" />
     <Compile Include="Models\ConferenceListModel.cs" />
     <Compile Include="Models\ConferenceShowModel.cs" />
     <Compile Include="Models\ConferenceStatsModel.cs" />
@@ -142,6 +144,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\MicrosoftMvcJQueryValidation.js" />
     <Content Include="Views\Account\LogOn.aspx" />
+    <Content Include="Views\Attendee\Show.ascx" />
     <Content Include="Views\Conference\Edit.aspx" />
     <Content Include="Views\Conference\EditorTemplates\Object.ascx" />
     <Content Include="Views\Conference\Index.aspx" />

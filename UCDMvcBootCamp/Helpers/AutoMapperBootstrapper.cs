@@ -19,6 +19,7 @@ namespace UCDMvcBootCamp.Helpers
             CreateMap<Conference, ConferenceListModel>();
             CreateMap<Conference, ConferenceShowModel>();
             CreateMap<Session, ConferenceShowModel.SessionShowModel>();
+            CreateMap<Attendee, AttendeeListModel>();
         }
     }
 }

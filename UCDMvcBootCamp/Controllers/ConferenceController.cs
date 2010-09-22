@@ -73,6 +73,41 @@ namespace UCDMvcBootCamp.Controllers
             return RedirectToAction("Index");
         }
 
+        public ActionResult Register(string confname)
+        {
+            var conference = _conferenceRepository.Queryable.Where(x => x.Name == confname).Single();
+
+            var model = new AttendeeEditModel {ConferenceId = conference.Id, ConferenceName = conference.Name};
+            
+            return View(model);
+        }
+
+        [HttpPost]
+        public ActionResult Register(AttendeeEditModel attendeeEditModel)
+        {
+            var conference =
+                _conferenceRepository.Queryable.Where(x => x.Name == attendeeEditModel.ConferenceName).Single();
+
+            if (ModelState.IsValid)
+            {
+                var newAttendee = new Attendee(attendeeEditModel.FirstName, attendeeEditModel.LastName)
+                                      {Email = attendeeEditModel.Email};
+
+                newAttendee.RegisterFor(conference);
+
+                _conferenceRepository.EnsurePersistent(conference);
+
+                Message = string.Format("Thank you {0} {1}.  You have registered for {2}", attendeeEditModel.FirstName,
+                                        attendeeEditModel.LastName, attendeeEditModel.ConferenceName);
+
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(attendeeEditModel);
+            }
+        }
+
         [ChildActionOnly]
         public ActionResult Stats()
         {

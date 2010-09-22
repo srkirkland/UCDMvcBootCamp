@@ -130,6 +130,7 @@
     <Compile Include="Helpers\DummyDataLoader.cs" />
     <Compile Include="Helpers\XmlResult.cs" />
     <Compile Include="Helpers\XmlSerializationHelper.cs" />
+    <Compile Include="Models\AttendeeEditModel.cs" />
     <Compile Include="Models\ConferenceListModel.cs" />
     <Compile Include="Models\ConferenceShowModel.cs" />
     <Compile Include="Models\ConferenceStatsModel.cs" />
@@ -143,6 +144,7 @@
     <Content Include="Views\Account\LogOn.aspx" />
     <Content Include="Views\Conference\Edit.aspx" />
     <Content Include="Views\Conference\Index.aspx" />
+    <Content Include="Views\Conference\Register.aspx" />
     <Content Include="Views\Conference\Show.aspx" />
     <Content Include="Views\Conference\Stats.ascx" />
     <Content Include="Views\Dynamic\Index.aspx" />

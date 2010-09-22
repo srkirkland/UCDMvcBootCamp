@@ -3,6 +3,9 @@
 <asp:Content runat="server" ID="Main" ContentPlaceHolderID="MainContent">
     <h2>Showing Details for <%: Model.Name %></h2>
 
+    <%: Html.ActionLink("To Register Click Here!", "Register") %>
+    <br />
+    <br />
     Sessions:
     <br />
     <br />

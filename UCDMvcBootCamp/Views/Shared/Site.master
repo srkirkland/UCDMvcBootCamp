@@ -9,11 +9,8 @@
     <script src="<%: Url.Script("jquery-1.4.1.min.js") %>" type="text/javascript"></script>
     <script src="<%: Url.Script("jquery.validate.min.js") %>" type="text/javascript"></script>
     <script src="<%: Url.Script("MicrosoftMvcJQueryValidation.js") %>" type="text/javascript"></script>
-<<<<<<< HEAD
 
     <asp:ContentPlaceHolder ID="AdditionalScripts" runat="server"></asp:ContentPlaceHolder>
-=======
->>>>>>> lab3.1
 
 </head>
 

@@ -122,6 +122,7 @@
     </Compile>
     <Compile Include="Helpers\DummyDataLoader.cs" />
     <Compile Include="Models\LogOnModel.cs" />
+    <Compile Include="Models\VerificationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +132,7 @@
     <Content Include="Views\Account\LogOn.aspx" />
     <Content Include="Views\Home\About.aspx" />
     <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Home\Verify.aspx" />
     <Content Include="Views\Shared\LogOnUserControl.ascx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

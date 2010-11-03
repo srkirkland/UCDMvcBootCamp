@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using UCDArch.Core.DomainModel;
 
@@ -23,7 +24,10 @@ namespace UCDMvcBootCamp.Core.Domain
             Sessions = new List<Session>();
         }
 
+        [Required]
+        [StringLength(20)]
         public virtual string Name { get; set; }
+
         public virtual int AttendeeCount { get; set; }
         public virtual int SessionCount { get; set; }
 

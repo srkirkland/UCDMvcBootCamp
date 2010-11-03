@@ -4,11 +4,14 @@
 
     <h2>Editing Conference <%: Model.Name %></h2>
 
+    <%: Html.ValidationSummary() %>
+
     <% using (Html.BeginForm()) { %>
         <%: Html.AntiForgeryToken() %>
         <%: Html.HiddenFor(x=>x.Id) %>
 
         Conference Name: <%: Html.TextBoxFor(x=>x.Name) %>
+        <%: Html.ValidationMessageFor(x=>x.Name) %>
 
         <br /><br />
         <table>

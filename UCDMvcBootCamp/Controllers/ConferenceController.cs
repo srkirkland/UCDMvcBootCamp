@@ -72,6 +72,11 @@ namespace UCDMvcBootCamp.Controllers
         [HttpPost]
         public ActionResult Edit(Conference conference)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(conference);
+            }
+
             var conferenceToEdit = _conferenceRepository.GetNullableById(conference.Id);
 
             conferenceToEdit.ChangeName(conference.Name);
